@@ -38,7 +38,7 @@ function isEmailRegistered(email) {
 function signUp() {
     const emailInput = document.getElementById('email').value;
     const email = emailInput;
-    const loginInfo = createUser(email);
+    createUser(email);
 }
 
 function showLoginInfo() {
